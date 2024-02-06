@@ -1,0 +1,39 @@
+name = "SIDProject"
+uuid = "f02f4466-298a-4545-9a0f-69791acaa7f2"
+authors = ["kater <katerinaprokou99@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
+BytePairEncoding = "a4280ba5-8788-555a-8ca8-4a8c3d966a71"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+ChainRulesCore = "d360d2e6-b24c-11e9-a2a3-2a2ae2dbcce4"
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+EvalMetrics = "251d5f9e-10c1-4699-ba24-e0ad168fa3e4"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Languages = "8ef0a80b-9436-5d2c-a485-80b904378c43"
+NeuralAttentionlib = "12afc1b8-fad6-47e1-9132-84abc478905f"
+OneHotArrays = "0b1bfda6-eb8a-41d2-88d8-f5af5cad476f"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+ROCCurves = "90902b46-5383-4c97-8f8a-bddf608a7bc6"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+StringEncodings = "69024149-9ee7-55f6-a4c4-859efe599b68"
+TextAnalysis = "a2db99b7-8b79-58f8-94bf-bbc811eef33d"
+TextEncodeBase = "f92c20c0-9f2a-4705-8116-881385faba05"
+Transformers = "21ca0261-441d-5938-ace7-c90938fde4d4"
+Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
+[extras]
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Markdown", "Test"]
