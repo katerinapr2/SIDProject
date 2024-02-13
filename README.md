@@ -1,8 +1,13 @@
 # SIDProject
-A natural language processing model for finding sensitive information in Greek court decision documents. Try it out with
+A natural language processing model for finding sensitive information in Greek court decision documents. 
+
+Try it out by installing it with
 
 ```julia
 ] add https://github.com/katerinapr2/SIDProject
+```
+and then issuing
+```julia
 using SIDProject
 text = read(PATH, String)
 anonymize(text)
