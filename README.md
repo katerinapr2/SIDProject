@@ -1,7 +1,7 @@
 # SIDProject
 A natural language processing model for finding sensitive information in Greek court decision documents.
 
-In order to use this package, it is necessary to install the [_gr-nlp-toolkit_][toolkit] in the Python distribution that Julia uses via [PyCall.jl][pycall].
+In order to install this package correctly, it is necessary to use _git clone_.
 
 ~~~
 using SIDProject
