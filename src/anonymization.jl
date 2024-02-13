@@ -1,7 +1,7 @@
 greek_tokenizer = hgf"nlpaueb/bert-base-greek-uncased-v1:tokenizer"
 
 
-model_path = raw".\src\model.bson"
+model_path = joinpath(@__DIR__, "model.bson")
 BSON.@load model_path cpu_model
 
 
