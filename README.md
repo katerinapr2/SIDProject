@@ -9,7 +9,7 @@ Try it out by installing it with
 and then issuing
 ```julia
 using SIDProject
-text = read(PATH, String)
+text = "Ο Γιώργος Σεφέρης ήταν Έλληνας διπλωμάτης και ποιητής και ο πρώτος Έλληνας που τιμήθηκε με Νόμπελ Λογοτεχνίας. Το πραγματικό του όνομα ήταν Γεώργιος Σεφεριάδης. Γεννήθηκε στα Βουρλά στις 29 Φεβρουαρίου του 1900 και ήταν ο πρωτότοκος γιος του Στέλιου και της Δέσπως (το γένος Γ. Τενεκίδη) Σεφεριάδη."
 anonymize(text)
 ```
 Then a txt file is created in which each sensitive information has been flagged. 
